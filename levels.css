@@ -80,3 +80,8 @@
 }
 
 /* level 6 grid */
+#level-6 {
+  display: grid;
+  grid-auto-rows: minmax(5rem, auto);
+  grid-template-columns: repeat(6, 1fr);
+}
